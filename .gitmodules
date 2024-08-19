@@ -1,0 +1,12 @@
+[submodule "Eevee/vendor/GLFW"]
+	path = Eevee/vendor/GLFW
+	url = https://github.com/NOSTVA/glfw.git
+[submodule "Eevee/vendor/spdlog"]
+	path = Eevee/vendor/spdlog
+	url = https://github.com/NOSTVA/spdlog.git
+[submodule "Eevee/vendor/imgui"]
+	path = Eevee/vendor/imgui
+	url = https://github.com/NOSTVA/imgui.git
+[submodule "Eevee/vendor/glm"]
+	path = Eevee/vendor/glm
+	url = https://github.com/g-truc/glm.git
