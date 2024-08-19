@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Eevee">
+      <UniqueIdentifier>{8F00190D-FB14-41BE-C496-E41D306A3DEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eevee\Events">
+      <UniqueIdentifier>{939534FB-7FF8-C39F-287E-FC5514C08F22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eevee\ImGui">
+      <UniqueIdentifier>{F964A92E-651A-2224-EE0E-1CFB5AC31828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\OpenGL">
+      <UniqueIdentifier>{1E7D2C1D-8A08-9AE1-9319-1DD6FF23F6E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Eevee.h" />
+    <ClInclude Include="src\Eevee\Application.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Core.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\EntryPoint.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Events\ApplicationEvent.h">
+      <Filter>Eevee\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Events\Event.h">
+      <Filter>Eevee\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Events\KeyEvent.h">
+      <Filter>Eevee\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Events\MouseEvent.h">
+      <Filter>Eevee\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\ImGui\ImGuiLayer.h">
+      <Filter>Eevee\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Input.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\KeyCodes.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Layer.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\LayerStack.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Log.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\MouseButtonCodes.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eevee\Window.h">
+      <Filter>Eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsInput.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\evpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Eevee\Application.cpp">
+      <Filter>Eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Eevee\ImGui\ImGuiLayer.cpp">
+      <Filter>Eevee\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Eevee\Layer.cpp">
+      <Filter>Eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Eevee\LayerStack.cpp">
+      <Filter>Eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Eevee\Log.cpp">
+      <Filter>Eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsInput.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evpch.cpp" />
+  </ItemGroup>
+</Project>
