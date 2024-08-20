@@ -1,5 +1,7 @@
 #include <Eevee.h>
 
+#include "imgui/imgui.h"
+
 class ExampleLayer : public Eevee::Layer
 {
 public:
@@ -10,6 +12,13 @@ public:
 		if (Eevee::Input::IsKeyPressed(EV_KEY_W)) {
 			EV_INFO("W is Pressed");
 		}
+	}
+
+	void OnImGuiRender()
+	{
+		ImGui::Begin("Test");
+		ImGui::Text("Hello world");
+		ImGui::End();
 	}
 
 	void OnEvent(Eevee::Event& event) override
@@ -23,7 +32,6 @@ public:
 	Sandbox()
 	{
 		PushLayer(new ExampleLayer());
-		PushOverlay(new Eevee::ImGuiLayer());
 	}
 
 	~Sandbox()

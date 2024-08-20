@@ -168,18 +168,17 @@
     <ClInclude Include="src\Eevee\Log.h" />
     <ClInclude Include="src\Eevee\MouseButtonCodes.h" />
     <ClInclude Include="src\Eevee\Window.h" />
-    <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h" />
     <ClInclude Include="src\Platform\Windows\WindowsInput.h" />
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\evpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Eevee\Application.cpp" />
+    <ClCompile Include="src\Eevee\ImGui\ImGuiBuild.cpp" />
     <ClCompile Include="src\Eevee\ImGui\ImGuiLayer.cpp" />
     <ClCompile Include="src\Eevee\Layer.cpp" />
     <ClCompile Include="src\Eevee\LayerStack.cpp" />
     <ClCompile Include="src\Eevee\Log.cpp" />
-    <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsInput.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\evpch.cpp">
@@ -193,8 +192,8 @@
     <ProjectReference Include="vendor\Glad\Glad.vcxproj">
       <Project>{BDD6857C-A90D-870D-52FA-6C103E10030F}</Project>
     </ProjectReference>
-    <ProjectReference Include="vendor\imgui\ImGui.vcxproj">
-      <Project>{C0FF640D-2C14-8DBE-F595-301E616989EF}</Project>
+    <ProjectReference Include="vendor\imgui\ImGUI.vcxproj">
+      <Project>{80FB640D-EC0F-8DBE-B591-301E216589EF}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

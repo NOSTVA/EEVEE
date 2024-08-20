@@ -3,6 +3,7 @@
 #include "Eevee/Window.h"
 #include "Eevee/LayerStack.h"
 #include "Eevee/Events/ApplicationEvent.h"
+#include "Eevee/ImGui/ImGuiLayer.h"
 
 namespace Eevee {
 	class EEVEE_API Application
@@ -25,6 +26,7 @@ namespace Eevee {
 	private:
 		bool OnWindowClose(WindowCloseEvent e);
 		std::unique_ptr<Window> m_Window;
+		ImGuiLayer* m_ImGuiLayer;
 		bool m_Running = true;
 		LayerStack m_LayerStack;
 

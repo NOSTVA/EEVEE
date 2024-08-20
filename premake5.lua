@@ -51,7 +51,6 @@ project "Eevee"
 		"%{IncludeDir.Glad}",
 		"%{IncludeDir.ImGUI}",
 		"%{IncludeDir.glm}"
-
 	}
 
 	links {
@@ -108,6 +107,7 @@ project "Sandbox"
 	includedirs {
 		"Eevee/vendor/spdlog/include",
 		"Eevee/src",
+		"Eevee/vendor",
 		"%{IncludeDir.glm}"
 	}
 
