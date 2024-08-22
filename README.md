@@ -1,2 +1,2 @@
 # EEVEE
-C++ Game Engine
+Early-stage interactive application and rendering engine
